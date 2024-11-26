@@ -35,4 +35,4 @@ def merge(kiri, kanan):
     return sorted_list
 
 hasil = merge_sort(angka_acak)
-print("\Hasil Sorting (Divide and Conquer):", hasil)
+print("\nHasil Sorting (Divide and Conquer):", hasil)
