@@ -2,7 +2,7 @@ import random
 
 # Memilih angaka acak dari 1-100 sebanyak 50
 angka_acak = random.choices(range(1, 100), k=50)
-print("Original Data:", angka_acak)
+print("Angka Asli:", angka_acak)
 
 # Divide and Conquer Sorting (Merge Sort)
 def merge_sort(arr):
@@ -35,4 +35,4 @@ def merge(kiri, kanan):
     return sorted_list
 
 hasil = merge_sort(angka_acak)
-print("\nSorted Data (Divide and Conquer):", hasil)
+print("\Hasil Sorting (Divide and Conquer):", hasil)
